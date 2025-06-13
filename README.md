@@ -1,8 +1,12 @@
 Clearpath Additional Simulation Worlds
 ==========================================
 
-This repository contains additional indoor and outdoor simulation environments for use with Clearpath's robot platforms.
+This repository is the forked version of the original repository made by Clearpath.
 
+It contains additional indoor and outdoor simulation environments for use with Clearpath's robot platforms.
+
+CHANGELOG: 
+- Race and Office Scenarios have been removed (out of scope)
 
 Launch Parameters
 -------------------------------------------------------------
@@ -70,23 +74,6 @@ This world features an indoor, enclosed world with non-planar ground geometry:
 See [Obstacle World](cpr_obstacle_gazebo/docs/README.md)
 
 
-Office World
--------------------------------------------------------------
-
-This world features two maps with the same general floorplan:
-
-![Office World](cpr_office_gazebo/docs/office_world.png "Office World")
-
-A small office featuring hallways, meeting rooms, and furniture.
-
-![Office World](cpr_office_gazebo/docs/construction_world.png "Construction World")
-
-The same office, but undergoing construction.  Construction materials are piled on the floor, and several walls are
-only studs.
-
-See [Office World](cpr_office_gazebo/docs/README.md)
-
-
 Orchard World
 -------------------------------------------------------------
 
@@ -96,11 +83,3 @@ This is a flat, outdoor world with several rows of small trees separated by dirt
 
 [Orchard World](cpr_orchard_gazebo/docs/README.md)
 
-
-Race Modules
--------------------------------------------------------------
-
-This is not an actual environment, but rather a collection of concrete and dirt road segments that can be used
-to build race tracks.
-
-See [Race Modules](cpr_race_modules/docs/README.md)
